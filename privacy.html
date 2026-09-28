@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pt-PT"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Política de privacidade — Binance Pump Bot</title>
+<style>body{font:17px/1.6 system-ui,sans-serif;max-width:750px;margin:3rem auto;padding:0 1.2rem;color:#182230}a{color:#145ca5}h1{line-height:1.2}</style>
+<h1>Política de privacidade</h1>
+<p>Última atualização: 28 de setembro de 2026.</p>
+<p>O Binance Pump Bot é uma ferramenta privada de investigação e paper trading. Consulta dados públicos de mercado da Binance. Na base PostgreSQL do serviço Railway guarda amostras e indicadores de mercado, sinais, resultados observados, decisões do proprietário, identificadores necessários das conversas Telegram e posições virtuais. Os dados de conversas são usados para entregar mensagens, autenticar comandos e acompanhar posições.</p>
+<h2>Google Drive</h2>
+<p>Quando o proprietário ativa e autoriza o arquivo, a aplicação pede o âmbito <code>https://www.googleapis.com/auth/drive.file</code>. Usa essa autorização para criar uma pasta privada e guardar arquivos horários ZIP de amostras e indicadores de mercado. Os arquivos contêm dados de mercado públicos, timestamps, símbolos e indicadores calculados; não incluem tokens, identificadores Telegram, decisões ou posições. A aplicação consulta apenas os arquivos que criou para evitar duplicações. Não lê outros ficheiros do Drive nem partilha os arquivos publicamente.</p>
+<h2>Armazenamento e controlo</h2>
+<p>Os dados operacionais residem no PostgreSQL do Railway. Os arquivos Google Drive ficam na conta do proprietário. O arquivo automático não apaga a base de dados. Atualmente não há eliminação automática dos arquivos no Drive; o proprietário pode removê-los e revogar o acesso da aplicação nas definições da sua conta Google. A revogação impede novos uploads, mas não elimina os arquivos já criados. Para pedidos de eliminação ou dúvidas, usa o <a href="https://github.com/CarteiroPaulo/CarteiroPaulo.github.io/issues">canal de contacto do projeto</a>; não publiques tokens nem dados pessoais numa issue pública.</p>
+<h2>Partilha</h2>
+<p>As fichas de acompanhamento podem ser enviadas pelo bot para o grupo Telegram que o proprietário ligou expressamente. O arquivo Drive não é partilhado com esse grupo. Os fornecedores de infraestrutura (Railway, Google Drive e Telegram) processam os dados necessários aos respetivos serviços. Não vendemos dados do Google Drive nem os usamos para publicidade.</p>
+<p><a href="/">Voltar à página inicial</a></p>
+</html>
